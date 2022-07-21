@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     container: centos7
     steps:
-      - ls -la
+      - run: ls -la
