@@ -1,0 +1,9 @@
+
+name: GitHub Actions Fail Demo
+on: [push]
+jobs:
+  container-test-job:
+    runs-on: ubuntu-latest
+    container: centos7
+    steps:
+      - ls -la
